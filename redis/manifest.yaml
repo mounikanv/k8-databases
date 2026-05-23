@@ -29,8 +29,7 @@ metadata:
     project: roboshop
     tier: database
 spec:
-  clusterIP: None 
- # This makes it headless
+# This makes it headless
 selector:
  component: redis
  project: roboshop
